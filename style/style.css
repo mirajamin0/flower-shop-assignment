@@ -1,0 +1,271 @@
+/* Common CSS */
+.btn{
+    border-radius: 8px;
+    padding: 20px 43px;
+    color: #ffffff;
+    background-color: #E55473;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* Common CSS */
+
+/* <!-- First Section css Start --> */
+.first-section{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+#first-sec-left {
+    padding-top: 200px;
+    padding-left: 240px;
+}
+#first-sec-right {
+    padding-top: 50px;
+    padding-right: 240px;
+}
+#first-p {
+    margin: 30px 0px 30px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+#first-heading{
+    color: #272727;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* <!-- First Section css end --> */
+
+/* Our Featured Flowers section CSS start */
+.feature-main{
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.flower-text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.flower-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.flower-tree{
+    display: flex;
+}
+.feture-img-left{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-size: cover;
+    width: 464px;
+    height: 538px;
+}
+.feture-img-center{
+    margin: 0 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.feture-img-right{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.feture-p{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
+.flower-tree-2{
+    margin: 50px 0px;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.delivery-p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* Our Featured Flowers section  CSS end */
+
+/* Hot Deal section CSS Start */
+.hot-deal{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #E554730D;
+    padding: 50px 240px;
+    margin: auto;
+}
+.hot-deal-left{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.hot-deal-right{
+    margin: auto;
+
+}
+
+/* Hot Deal section CSS end */
+
+/* instagram section CSS Start ///*/
+.instagram{
+    margin :  100px 240px;
+}
+.instagram-img{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+.instagram-img-1{
+    margin-right: 24px;
+}
+.instagram-img-2{
+    margin-right: 24px;
+}
+.instagram-img-3{
+    margin-right: 24px;
+}
+.instagram-img-4{
+    margin-right: 24px;
+}
+/* instagram section CSS end */
+
+
+/* Latest Deal Section CSS Start */
+.deal-sec{
+    width: 1440px;
+    height: 449px;
+    margin: 80px 240px ;
+    border-radius: 8px;
+    background-image: url(../asset/Rectangle\ 9.png);
+}
+.deal-sec-div-1{
+    padding-top: 80px;
+}
+.deal-sec-div-2{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+/* Latest Deal Section CSS End */
+
+/* Our Blog Section CSS Start */
+.our-blog{
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 5px 0px;
+    padding: 0px 240px;
+}
+
+.blog-post {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.post-title {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Our Blog Section CSS End */
+
+/* Footer Section CSS Start */ 
+footer{
+    background-color: #111010 ;
+    padding: 100px;
+
+}
+#Copywrite{
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+/* Footer Section CSS end */ 
